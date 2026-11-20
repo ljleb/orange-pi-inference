@@ -1,0 +1,28 @@
+# Local configuration and credentials
+/.agents/
+/.aws/
+/.codex/
+.env
+.env.*
+
+# Python environments and caches
+/.venv*/
+/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local SDK, runtime, tools, and model binaries
+/local/
+/.ocr-tools/
+/lib/
+/ocr-models/
+/rknn_model_zoo/
+*.onnx
+*.rknn
+
+# Screen captures, annotations, and recognition exports
+/images/
+/5008S_*
+/ocr-results*.txt
+/ocr-npu-results*.txt
